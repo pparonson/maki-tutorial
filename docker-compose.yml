@@ -1,0 +1,12 @@
+version: "3"
+
+# services define types of containers
+# docker-compose automatically networks defined containers
+services:
+  redis-server:
+    image: redis
+  node-app:
+    restart: always
+    build: ./ # use Dockerfile in the current dir
+    ports:
+      - "3000:8080" # specify an array with "-"
