@@ -32,6 +32,9 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
+# Mongo data
+data/
+
 # Dependency directories
 node_modules/
 jspm_packages/
@@ -40,7 +43,7 @@ jspm_packages/
 typings/
 
 # Optional npm cache directory
-.npm
+.npmgit
 
 # Optional eslint cache
 .eslintcache
